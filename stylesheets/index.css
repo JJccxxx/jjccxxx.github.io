@@ -23,7 +23,7 @@
 .column {
   	float: left;
 	padding: 40px 0;
-  	height: 45pc; 
+  	height: auto; 
 }
 .column.side {
   	width: 10%;
@@ -130,7 +130,7 @@
 	border: 2px solid #003AFF; 
 }
 .search-button { 
-	width: 60px; 
+	width: 50px; 
 	height: 34px; 
 	border: none; 
 	border-radius: 8px; 
@@ -142,8 +142,7 @@
 	transition: all 0.3s;
 }
 .search-button:hover {
-	background-color: #006AFF;
-	color: #1E1E1E;
+	background-color: #004AFF;
 }
 
 
